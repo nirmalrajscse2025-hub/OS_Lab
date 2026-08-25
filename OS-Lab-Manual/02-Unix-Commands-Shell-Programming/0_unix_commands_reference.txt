@@ -1,0 +1,31 @@
+====================================================================
+ UNIX Commands Reference (Experiment 2)
+====================================================================
+date                      -> current date and time
+date "+%H-%M-%S"          -> formatted date/time
+cal <year>                -> calendar of a year
+cal <month> <year>        -> calendar of a specific month
+echo <text>               -> print text
+echo "Line1 Line2 Line3"  -> print multiple words
+who                       -> logged-in users
+who -H                    -> logged-in users with header
+who -b                    -> last system boot time
+who am i                  -> current user session info
+tty                       -> terminal name
+bc                        -> arithmetic calculator
+obase=2 (inside bc)       -> base conversion
+clear                     -> clear terminal
+man <command>             -> manual page of a command
+tput clear                -> clear screen using terminal capability
+tput longname             -> terminal description
+tput smso / tput rmso     -> standout mode on/off
+ls / ls -a / ls -l / ls -r / ls -t   -> list files (various forms)
+
+Directory commands: pwd, mkdir <dir>, cd <dir>, rmdir <dir>
+File commands: cat > file, cat file, cat f1 > f2, cat f1 >> f2,
+                cat -n file, sort file, cp src dst, mv src dst,
+                rm file, wc file, wc -l/-w/-c file, lp file, pg file
+Filters/Pipes: head file, tail file, more file, grep pattern file,
+                sort file, cmd1 | cmd2, tr "[a-z]" "[A-Z]"
+Communication: mesg y, write username, wall "message",
+                mail username, reply username

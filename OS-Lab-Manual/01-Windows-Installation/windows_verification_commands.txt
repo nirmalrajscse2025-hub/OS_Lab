@@ -1,0 +1,40 @@
+====================================================================
+ Experiment 1: Installation of Windows Operating System
+ Verification Commands (run on Windows Command Prompt / PowerShell)
+====================================================================
+NOTE: These are native Windows commands used to verify a successful
+Windows installation. They are OS-specific and can only be executed
+on a Windows machine (not on Linux/macOS), so they are provided here
+as a reference/documentation file rather than an executable script.
+
+1. Display Windows Version
+   > winver
+
+2. Display System Information
+   > systeminfo
+
+3. Display Computer Name
+   > hostname
+
+4. Display Disk Information
+   > diskpart
+   DISKPART> list disk
+
+5. Check Windows Activation Status
+   > slmgr /xpr
+
+6. Display IP Configuration
+   > ipconfig
+
+--------------------------------------------------------------------
+Sample Output (from manual)
+--------------------------------------------------------------------
+Command: hostname
+Output:  DESKTOP-ABC123
+
+Command: systeminfo
+Output (partial):
+OS Name: Microsoft Windows 11 Pro
+OS Version: 10.0.26100
+System Type: x64-based PC
+Total Physical Memory: 8192 MB
